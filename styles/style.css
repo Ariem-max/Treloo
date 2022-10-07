@@ -1,0 +1,335 @@
+/* fonts */
+
+
+/* reset */
+
+@import url(/styles/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: Poppins, Arial, Helvetica, sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* 
+header */
+
+body {
+    background-image: url(/assets/img/pexels-francesco-ungaro-2835436\ 1.jpg);
+    background-position: top;
+    background-size: 100% 952px;
+    background-repeat: no-repeat;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: 1179px;
+    margin: 0 auto;
+}
+
+.header .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-link {
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+    /* White-primary */
+    color: #FFFFFF;
+}
+
+.nav {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    /* White-primary */
+    color: #FFFFFF;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.btn-link {
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    /* Blue-primary */
+    color: #3E86F5;
+    padding: 15px 44px;
+    transition: all .13s ease;
+}
+
+.btn-link:hover {
+    background-color: #3E86F5;
+    color: #fff;
+}
+
+.btn-link:active {
+    transform: translateY(5px);
+    transition: .13s;
+}
+
+
+/* 
+main */
+
+.main .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 157px;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    margin-top: 198px;
+}
+
+.slogan {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 200%;
+    /* or 48px */
+    text-align: center;
+    /* White-primary */
+    color: #FFFFFF;
+    margin-bottom: 248px;
+}
+
+
+/* добавил */
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.cards {
+    background-color: white;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    padding: 21px 27.5px 30px;
+}
+
+.subheading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+    text-align: center;
+    /* Black-primary */
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.cat-list {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 17.5px;
+    margin-bottom: 40px;
+}
+
+.cat-iteam {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.cat-btn {
+    background-color: white;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    border-radius: 10px;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+.active {
+    color: #FFFFFF;
+    background-color: #3E86F5;
+    padding: 10px 24px;
+}
+
+.relax {
+    max-width: 293px;
+    width: 100%;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.relax2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    /* Fuschia/80 */
+    color: #F178B6;
+    background: #FCDDEC;
+    border-radius: 100px;
+    display: block;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 12px;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    /* Black-primary */
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.much {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.much2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.bttn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    /* Blue-primary */
+    color: #3E86F5;
+    border-radius: 10px;
+    padding: 13px 19px;
+    background: #F2F6FF;
+    margin-left: auto;
+}
+
+.q {
+    display: flex;
+}
+
+.w {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.travel .wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.travel .content {
+    max-width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.travel .subheading {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.travel .texxt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    /* or 40px */
+    /* Black-75 */
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.travel .texxt:first-of-type {
+    margin-bottom: 40px;
+}
+
+.button {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    /* White-primary */
+    color: #FFFFFF;
+    padding: 23px 33px;
+    background: #3E86F5;
+    border-radius: 10px;
+    filter: drop-shadow(4px 8px 25px rgba(62, 134, 245, 0.25));
+}
+
+.button:active {
+    transform: translateY(3px);
+}
